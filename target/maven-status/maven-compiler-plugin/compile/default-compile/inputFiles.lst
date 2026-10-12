@@ -1,0 +1,17 @@
+/home/etudiant/uni/java_avance/project_java_spring/src/main/java/Ex/CL_Appli.java
+/home/etudiant/uni/java_avance/project_java_spring/src/main/java/Ex/DemoApplication.java
+/home/etudiant/uni/java_avance/project_java_spring/src/main/java/Ex/control/CampusController.java
+/home/etudiant/uni/java_avance/project_java_spring/src/main/java/Ex/domain/BatimentRepository.java
+/home/etudiant/uni/java_avance/project_java_spring/src/main/java/Ex/domain/CampusRepository.java
+/home/etudiant/uni/java_avance/project_java_spring/src/main/java/Ex/domain/ComposanteRepository.java
+/home/etudiant/uni/java_avance/project_java_spring/src/main/java/Ex/domain/SalleRepository.java
+/home/etudiant/uni/java_avance/project_java_spring/src/main/java/Ex/modele/Batiment.java
+/home/etudiant/uni/java_avance/project_java_spring/src/main/java/Ex/modele/Campus.java
+/home/etudiant/uni/java_avance/project_java_spring/src/main/java/Ex/modele/Composante.java
+/home/etudiant/uni/java_avance/project_java_spring/src/main/java/Ex/modele/Salle.java
+/home/etudiant/uni/java_avance/project_java_spring/src/main/java/Ex/modele/TypeSalle.java
+/home/etudiant/uni/java_avance/project_java_spring/src/main/java/Ex/service/CampusService.java
+/home/etudiant/uni/java_avance/project_java_spring/src/main/java/Ex/service/ICampusService.java
+/home/etudiant/uni/java_avance/project_java_spring/src/main/java/Ex/service/ISalleService.java
+/home/etudiant/uni/java_avance/project_java_spring/src/main/java/Ex/service/MockCampusService.java
+/home/etudiant/uni/java_avance/project_java_spring/src/main/java/Ex/service/SalleService.java
