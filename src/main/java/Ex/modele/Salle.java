@@ -67,8 +67,10 @@ public class Salle {
     }
     @Override
     public String toString() {
-        return "Salle [numS=" + numS + ", capacite=" + capacite + ", typeS=" + typeS + ", acces=" + acces + ", etage="
-                + etage + ", batiment=" + batiment + "]";
+        return "Salle " + numS
+            + " | " + typeS
+            + " | " + capacite + " places"
+            + " | bâtiment: " + batiment.getCodeB();
     }
 
 

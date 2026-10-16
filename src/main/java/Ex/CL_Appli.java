@@ -106,12 +106,12 @@ public class CL_Appli implements CommandLineRunner {
 
 	private void runTD2() {
 		// ------------------------- TD2 --------------------------------
-		Campus	cpus = new Campus("STAPS1","Montpellier");
-		Batiment bat = new Batiment();
-		bat.setAnneeC(1978);
-		bat.setCodeB("st_Bat_1");
-		bat.setCampus(cpus);
-		cs.createCampus(cpus); 
+		// Campus	cpus = new Campus("STAPS1","Montpellier");
+		// Batiment bat = new Batiment();
+		// bat.setAnneeC(1978);
+		// bat.setCodeB("st_Bat_1");
+		// bat.setCampus(cpus);
+		// cs.createCampus(cpus); 
 	}
 	   
 	// -------------------- TD1 -----------------------------------

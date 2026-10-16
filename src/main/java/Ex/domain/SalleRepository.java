@@ -21,29 +21,19 @@ public interface SalleRepository extends JpaRepository<Salle, String> {
     // ---------------------------------------
     // all salles of the building by its code
     // derived: List<Salle> findByBatiment_CodeB(String codeB);
-    // translates to:
-    // SELECT *
-    // FROM salle
-    // WHERE batiment = 'X';
     @Query("SELECT s FROM Salle s WHERE s.batiment.codeB = :codeB")
     List<Salle> findByBatiment(@Param("codeB") String codeB);
 
     // -----------------------------------------
     // all salles of the campus by name of campus
     // derived: List<Salle> findByBatiment_Campus_nomC(String nomC);
-    // translates to:
-    // SELECT s.*
-    // FROM salle s
-    // JOIN batiment b ON s.batiment = b.codeB
-    // JOIN campus c ON b.campus = c.nomC
-    // WHERE c.nomC = 'X';
     @Query("SELECT s from Salle s WHERE s.batiment.campus.nomC = :nomC")
     List<Salle> findByCampus(@Param("nomC") String nomC);
 
     // find salles quantity for each building
     @Query("SELECT s.batiment.codeB, COUNT(s) FROM Salle s GROUP BY s.batiment.codeB")
-    List<Object[]> countByBatiment(); // object is needed bc each line will have two different Object types: codeB →
-                                      // String, COUNT(s) → Long, so Object takes into account both
+    List<Object[]> countByBatiment(); // object is needed bc each line will have two different Object types: 
+                                 // codeB →String, COUNT(s) → Long, so Object takes into account both
 
     // find salles quantity for each salle type
     @Query("SELECT s.typeS, COUNT(s) FROM Salle s GROUP BY s.typeS")
